@@ -1,0 +1,14 @@
+@import "../assets/scss/styles.scss";
+
+.header {
+  @include flex-wrap();
+  width: 100%;
+
+  &__logo {
+width: 10%;
+  }
+
+  &__actions {
+width: 15%;
+  }
+}

@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas, faMoon } from "@fortawesome/free-solid-svg-icons";
+import './index.scss';
+
+library.add( fas, faMoon);
 
 ReactDOM.render(
   <React.StrictMode>
