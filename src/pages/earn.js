@@ -1,12 +1,11 @@
-
 import "./dashboard.scss";
 
-const Dashboard = () => {
+const Earn = () => {
   return (
     <div className="main">
-      <h1>Hi Dashboard</h1>
+      <h1>Hi Earn</h1>
     </div>
   );
 };
 
-export default Dashboard;
+export default Earn;

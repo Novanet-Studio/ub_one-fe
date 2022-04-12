@@ -6,10 +6,7 @@ const Navigation = () => {
     <nav className="navigation">
       <ul className="navigation__list">
         <li>
-          <NavLink 
-            className="navigation__item" 
-            activeclassname="active" 
-            to="/">
+          <NavLink className="navigation__item" activeclassname="active" to="/">
             Earn
           </NavLink>
         </li>
@@ -17,7 +14,7 @@ const Navigation = () => {
           <NavLink
             className="navigation__item"
             activeclassname="active"
-            to="/listedcardpage"
+            to="/dashboard"
           >
             Dashboard
           </NavLink>

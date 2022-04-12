@@ -1,12 +1,23 @@
-.root {
+@import "../assets/scss/styles.scss";
 
+.root {
+  &--light {
+    background-color: $white;
+    color: $black;
+  }
+
+  &--dark {
+    background-color: $black;
+    color: $white;
+  }
 }
 
 .container {
+  @include flex-wrap();
   margin: 0 auto;
   width: 80em;
 }
 
-.main{
-  
+.main {
+  width: 100%;
 }
