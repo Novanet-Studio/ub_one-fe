@@ -1,10 +1,8 @@
 
-import "./dashboard.scss";
-
 const Dashboard = () => {
   return (
     <div className="main">
-      <h1>Hi Dashboard</h1>
+      <h1>Hi Dashboard page</h1>
     </div>
   );
 };

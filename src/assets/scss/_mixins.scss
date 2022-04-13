@@ -14,9 +14,9 @@
   align-items: center;
 }
 
-@mixin image-background($image) {
+@mixin image-background($image, $bg-size: "unset") {
   background-image: url("../assets/images/#{$image}");
-  background-size: cover;
+  background-size: #{$bg-size};
   background-repeat: no-repeat;
 }
 

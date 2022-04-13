@@ -8,7 +8,7 @@
 
       &__logo {
         &-type {
-          @include image-background($image: "type.svg");
+          @include image-background($image: "type.svg", $bg-size: "contain");
         }
       }
 
@@ -24,7 +24,7 @@
 
       &__logo {
         &-type {
-          @include image-background($image: "type-light.svg");
+          @include image-background($image: "type-light.svg", $bg-size: "contain");
         }
       }
 
@@ -50,7 +50,7 @@
     &-emblem {
       width: 15%;
       height: 1.8em;
-      @include image-background($image: "emblem.svg");
+      @include image-background($image: "emblem.svg", $bg-size: "cover");
     }
 
     &-type {
